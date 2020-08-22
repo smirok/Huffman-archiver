@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PressWindow</class>
+ <widget class="QDialog" name="PressWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>524</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Parameters</string>
+  </property>
+  <widget class="QLineEdit" name="FileNameEditor">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>290</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>260</y>
+     <width>321</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Enter compressed (decompressed)  file name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>261</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select file to compress (decompress)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="OkButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>340</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>261</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select the directory for the new file</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="browseDirectory">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>265</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ChooseDirectoryButton">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>170</y>
+     <width>80</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SELECT</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="browseFilePath">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>265</width>
+     <height>71</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ChooseFileButton">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>60</y>
+     <width>80</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SELECT</string>
+   </property>
+  </widget>
+  <zorder>splitter</zorder>
+  <zorder>FileNameEditor</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>OkButton</zorder>
+  <zorder>label_3</zorder>
+  <zorder>browseDirectory</zorder>
+  <zorder>ChooseDirectoryButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
