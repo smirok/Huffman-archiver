@@ -4,6 +4,7 @@ This application allows to compress and decompress files using the Huffman algor
 
 GUI is made using QT.
 
-![Screenshots](/screenshots/ex1.png)
-
+## Screenshots
 ![](/screenshots/ex1.png)
+
+![](/screenshots/ex2.png)
